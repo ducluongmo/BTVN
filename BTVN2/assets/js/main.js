@@ -35,8 +35,8 @@ let solveQuadraticEquation = (a, b, c) => {
     } else if (delta == 0) {
       return `Phuong trinh co nghiem duy nhat x1 = x2 = ${-b / (2 * a)}`;
     } else {
-      return `x1 = ${(-b + Math.sqrt(delta)) / (2 * a)} va x2 = ${
-        (-b - Math.sqrt(delta)) / (2 * a)
+      return `x1 = ${(-b + Math.sqrt(delta)) / (2 * a)} va 
+              x2 = ${(-b - Math.sqrt(delta)) / (2 * a)
       }`;
     }
   }
